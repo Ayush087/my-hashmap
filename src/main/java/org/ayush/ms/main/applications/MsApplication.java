@@ -1,5 +1,6 @@
-package org.ayush.ms;
+package org.ayush.ms.main.applications;
 
+import org.ayush.ms.Employee;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Comparator;
@@ -16,7 +17,6 @@ public class MsApplication {
                 new Employee("D", 100),
                 new Employee("E", 20)
         );
-
         findSecond(employeeList).forEach(
                 employee -> System.out.println(employee + " ")
         );
